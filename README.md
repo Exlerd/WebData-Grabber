@@ -54,7 +54,7 @@ The script can extract the following types of data:
 
 ## Note
 
-This script is provided as-is and may not work with future browser updates or changes. Use it responsibly and only on systems you have permission to access.
+This script is provided as-is and may not work with future browser updates or changes, use it responsibly.
 
 ## 
 

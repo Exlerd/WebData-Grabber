@@ -51,7 +51,7 @@ def get_data(path: str, profile: str, key, data_type):
             for i in range(len(row)):
                 if isinstance(row[i], bytes):
                     row[i] = decrypt_password(row[i], key)
-        if data_type['query'] == 'SELECT url, title, last_visit_time FROM urls':  # Change to your specific history query
+        if data_type['query'] == 'SELECT url, title, last_visit_time FROM urls': 
             row[2] = convert_chrome_time(row[2]) if row[2] != 0 else "0"
 
         result += "\n".join([f"{col}: {val}" for col, val in zip(data_type['columns'], row)]) + "\n\n"
@@ -135,7 +135,6 @@ if __name__ == '__main__':
             'columns': ['Download URL', 'Local Path'],
             'decrypt': False
         }
-        # Add more data types here...
     }
 
     for browser, browser_path in browsers.items():

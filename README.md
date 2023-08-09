@@ -15,9 +15,9 @@ This script extracts various types of data from web browsers installed on a Wind
 
 3. Configure the WEBHOOK_URL variable in the main.py script with your Discord webhook URL.
 
-4. Create an Executable File:
+## Create an Executable File
 
-For to distribute the script as an executable (.exe), follow these steps:
+For distribute the script as an executable `(.exe)` follow these steps:
    
    - Open a terminal in the directory where you have the main.py file.
      

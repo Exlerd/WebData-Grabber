@@ -1,3 +1,7 @@
+# Coded by henry-richard7
+# Discord WEBHOOK by Exlerd
+# Enjoy! :)
+
 import base64
 import json
 import os

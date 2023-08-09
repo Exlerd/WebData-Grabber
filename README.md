@@ -11,14 +11,13 @@ This script extracts various types of data from web browsers installed on a Wind
 
 2. Install the required Python packages using the `requirements.txt` file.
    ```shell
-
- - pip install -r requirements.txt
+   pip install -r requirements.txt
 
 3. Configure the WEBHOOK_URL variable in the main.py script with your Discord webhook URL.
 
 4. Run the script using the following command:
-
-- python main.py
+   ```shell
+   python main.py
 
 5. The script will extract data from supported web browsers and send it to the configured Discord webhook.
 
@@ -26,7 +25,7 @@ This script extracts various types of data from web browsers installed on a Wind
 
 The script supports the following browsers:
 
-- AMIGO
+`- AMIGO
 - TORCH
 - KOMETA
 - ORBITUM
@@ -41,17 +40,17 @@ The script supports the following browsers:
 - URAN
 - YANDEX
 - BRAVE
-- IRIDIUM
+- IRIDIUM`
 
 ## Supported Data 
 
 The script can extract the following types of data:
 
-- Login Data
+`- Login Data
 - Credit Cards
 - Cookies
 - History
-- Downloads
+- Downloads`
 
 ## Note
 
@@ -60,3 +59,4 @@ This script is provided as-is and may not work with future browser updates or ch
 ## 
 
 The script was made by Exlerd, enjoy! :D
+

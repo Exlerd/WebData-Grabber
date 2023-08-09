@@ -25,7 +25,7 @@ This script extracts various types of data from web browsers installed on a Wind
 
 The script supports the following browsers:
 
-`- AMIGO
+- AMIGO
 - TORCH
 - KOMETA
 - ORBITUM
@@ -40,17 +40,17 @@ The script supports the following browsers:
 - URAN
 - YANDEX
 - BRAVE
-- IRIDIUM`
+- IRIDIUM
 
 ## Supported Data 
 
 The script can extract the following types of data:
 
-`- Login Data
+- Login Data
 - Credit Cards
 - Cookies
 - History
-- Downloads`
+- Downloads
 
 ## Note
 
@@ -60,3 +60,4 @@ This script is provided as-is and may not work with future browser updates or ch
 
 The script was made by Exlerd, enjoy! :D
 
+`Discord: exlerd`
